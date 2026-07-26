@@ -12,8 +12,8 @@ provider "aws" {
   region = "ap-south-1"
 }
 resource "aws_instance" "app_server" {
-  ami           = "ami-09d88f7c4c272b0c5"
-  instance_type = "t3.micro"
+  ami           = var.ami
+  instance_type = var.instance_type
   tags = {
     Name = "learn-terraform"
   }
