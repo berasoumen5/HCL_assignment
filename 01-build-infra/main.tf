@@ -13,7 +13,7 @@ provider "aws" {
 }
 resource "aws_instance" "app_server" {
   ami           = "ami-09d88f7c4c272b0c5"
-  instance_type = "t3.small"
+  instance_type = "t3.micro"
   tags = {
     Name = "learn-terraform"
   }
