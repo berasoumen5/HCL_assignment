@@ -1,5 +1,5 @@
 Repo Structure
-HCL_assignment/
+HCL_assignment/01-build-infra/
   main.tf
   variables.tf
   outputs.tf
